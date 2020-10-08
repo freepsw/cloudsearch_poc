@@ -1,0 +1,6 @@
+[Rancher]
+#rancher ansible_ssh_port=22 ansible_ssh_host=169.56.124.19 ansible_user=rts ansible_ssh_pass=!rts00
+
+
+[Agents]
+agent1 ansible_ssh_port=22 ansible_ssh_host=localhost ansible_user=dpcore ansible_ssh_pass=1234qwer

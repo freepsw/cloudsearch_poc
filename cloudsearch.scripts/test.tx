@@ -1,0 +1,63 @@
+
+rm-prd01 ansible_ssh_port=2202 ansible_ssh_host=10.178.7.194 ansible_user=dpcore ansible_ssh_pass=!AccuInsight*0
+
+rm-prd01  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.194  ansible_user=csuser ansible_ssh_pass=!Csuser00
+fe-prd01  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.197  ansible_user=csuser ansible_ssh_pass=!Csuser00
+fe-prd02  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.195  ansible_user=csuser ansible_ssh_pass=!Csuser00
+be-prd01  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.245  ansible_user=csuser ansible_ssh_pass=!Csuser00
+be-prd02  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.235  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd01  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.253  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd02  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.232  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd03  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.244  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd04  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.229  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd05  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.240  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd06  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.234  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd07  ansible_ssh_port=2202  ansible_ssh_host=10.178.243.20 ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd08  ansible_ssh_port=2202  ansible_ssh_host=10.178.243.13 ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd09  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.217  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd10  ansible_ssh_port=2202  ansible_ssh_host=10.178.243.7  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd11  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.216  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd12  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.246  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd13  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.228  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd14  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.227  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd15  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.222  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd16  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.243  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd17  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.214  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd18  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.221  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd19  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.212  ansible_user=csuser ansible_ssh_pass=!Csuser00
+cn-prd20  ansible_ssh_port=2202  ansible_ssh_host=10.178.7.247  ansible_user=csuser ansible_ssh_pass=!Csuser00
+
+
+
+{"ip":"10.178.50.103", "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.50.106", "port":"22", "user":"rts", "pass":"!rts!"}
+
+{"ip":"10.178.7.194"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.197"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.195"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.245"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.235"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.253"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.232"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.244"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.229"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.240"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.234"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.243.20" , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.243.13" , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.217"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.243.7"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.216"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.246"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.228"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.227"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.222"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.243"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.214"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.221"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.212"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"},
+{"ip":"10.178.7.247"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}
+
+
+
+{"ip":"10.178.7.194"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.197"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.195"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.245"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.235"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.253"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.232", "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.244"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.229"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.240"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.234"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.243.20" , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.243.13" , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.217"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.243.7"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.216"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.246"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.228"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.227"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.222"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.243"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.214"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.221"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.212"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"}, {"ip":"10.178.7.247"  , "port":"2202", "user":"csuser", "pass":"!Csuser00"} 
